@@ -1,15 +1,15 @@
 {
-  "name": "cylon-intel-iot",
-  "version": "0.8.1",
-  "description": "Cylon module for Intel-IoT platforms",
-  "homepage": "http://cylonjs.com",
-  "bugs": "https://github.com/hybridgroup/cylon-intel-iot/issues",
+  "name": "cylon-octanis1-rover",
+  "version": "0.0.1",
+  "description": "Cylon module for Octanis 1 Rover",
+  "homepage": "http://octanis.org",
+  "bugs": "https://github.com/octanis1/cylon-octanis1-rover/issues",
 
-  "author": "The Hybrid Group <cylonjs@hybridgroup.com>",
+  "author": "Sam Sulaimanov <sam@bitmorse.com>",
 
   "repository": {
     "type": "git",
-    "url": "https://github.com/hybridgroup/cylon-intel-iot"
+    "url": "https://github.com/octanis1/cylon-octanis1-rover"
   },
 
   "license": "Apache-2.0",
@@ -23,13 +23,8 @@
     "robotics",
     "iot",
     "hardware",
-    "gpio",
-    "i2c",
-    "intel",
-    "edison",
-    "galileo",
-    "mraa",
-    "upm"
+    "octanis",
+    "rover"
   ],
 
   "devDependencies": {
@@ -42,7 +37,6 @@
 
   "dependencies": {
     "cylon":      "~1.2.0",
-    "cylon-gpio": "~0.27.0",
-    "cylon-i2c":  "~0.23.0"
+    "cylon-ble": "*",
   }
 }

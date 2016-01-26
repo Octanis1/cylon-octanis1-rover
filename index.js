@@ -1,12 +1,12 @@
 "use strict";
 
 var Adaptor = require("./lib/adaptor"),
-    Driver = require("./lib/upm-sensor");
+    Driver = require("./lib/drivers");
 
 module.exports = {
-  adaptors: ["intel-iot"],
-  drivers: ["upm-hmc5883l", "upm-lcm1602", "upm-jhd1313m1", "upm-grovetemp"],
-  dependencies: ["cylon-gpio", "cylon-i2c"],
+  adaptors: ["octanis1-rover"],
+  drivers: ["wheel"],
+  dependencies: ["cylon-ble"],
 
   adaptor: function(opts) {
     return new Adaptor(opts);
