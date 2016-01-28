@@ -21,8 +21,10 @@ Cylon.robot({
  },
 
  work: function(my) {
+
   my.rover_ble.on("BLECLI:rx", function(data){
     console.log(data);
+    my.rover_ble.tx("test tx");
   });
 
   my.rover_joystick.on("battery:change", function(data){

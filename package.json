@@ -1,6 +1,6 @@
 {
   "name": "cylon-octanis1-rover",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Cylon module for Octanis 1 Rover",
   "homepage": "http://octanis.org",
   "bugs": "https://github.com/octanis1/cylon-octanis1-rover/issues",
@@ -36,6 +36,8 @@
   },
 
   "dependencies": {
-    "cylon":      "~1.2.0"
+    "cylon":      "~1.2.0",
+    "cylon-ble": "*",
+    "node-gamepad": "*"
   }
 }
