@@ -1,6 +1,6 @@
 {
   "name": "cylon-octanis1-rover",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "Cylon module for Octanis 1 Rover",
   "homepage": "http://octanis.org",
   "bugs": "https://github.com/octanis1/cylon-octanis1-rover/issues",
